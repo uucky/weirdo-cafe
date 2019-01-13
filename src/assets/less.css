@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock|Sail&.css');
+body {
+  font-size: 18px;
+  color: #502200;
+  background-color: #2B1200;
+  margin: 0;
+}
+#wrapper {
+  margin: 0 auto;
+  align-content: center;
+  width: 960px;
+  background-color: #FFFBF4;
+}
+#header {
+  background-color: #FFF5e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header #header-logo {
+  height: 150px;
+  width: 150px;
+}
+#header h1 {
+  font-family: 'Sail', Cursive;
+  font-weight: normal;
+  color: #A9744D;
+  font-size: 64px;
+}
+#content {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 20%;
+  margin-bottom: 2em;
+}
+#content h2 {
+  font-family: 'Sail', Cursive;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 2em 0;
+}
+#content h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+#content ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+#content .contact {
+  display: flex;
+  justify-content: space-between;
+}
+#content .contact .left-panel span {
+  display: block;
+}
+#content .contact .phone-number a:link {
+  color: #A9744D;
+  text-decoration: none;
+}
+#content .contact .phone-number a:visited {
+  color: #A9744D;
+  text-decoration: none;
+}
+#content .contact .phone-number a:hover {
+  text-decoration: underline;
+}
+#content .contact .phone-number a:active {
+  text-decoration: underline;
+}
+#content .menu li {
+  padding: 10px 0;
+}
+#content .mapouter {
+  text-align: right;
+}
+#content .gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  height: 300px;
+  width: 380px;
+}
+#footer {
+  background-color: #FFF5e1;
+  position: relative;
+  bottom: 0;
+  width: 960px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+#footer span {
+  display: inline-block;
+  line-height: 100px;
+}
