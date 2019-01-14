@@ -75,11 +75,13 @@ body {
 }
 #content .mapouter {
   text-align: right;
+  height: 380px;
+  width: 380px;
 }
 #content .gmap_canvas {
   overflow: hidden;
   background: none!important;
-  height: 300px;
+  height: 380px;
   width: 380px;
 }
 #footer {
